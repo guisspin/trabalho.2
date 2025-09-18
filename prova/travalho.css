@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 5vw;
+    flex: 1;
+}
+
+a{
+    transition: transform 0.3s;
+    display: inline-block;
+    margin: 1vw;
+    text-decoration: none;
+    font-size: 3vw;
+    color: rgb(146, 204, 255);
+}
+
+a:hover{
+    transform: rotate(360deg);
+    color: #ffee00;
+}
+
+.headerc{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    align-items: center;
+}
+
+img{
+    width: 100vw;
+    height: auto;
+}

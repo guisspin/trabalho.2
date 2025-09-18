@@ -15,17 +15,17 @@ main {
 }
 
 .text {
-    font-size: 8vw; 
+    font-size: 6vw; 
     font-weight: bold;
-    color: #333;
-    margin: 20px 0;
+    color: #000000;
+    margin: 15px 0;
 }
 
 .imge {
-    width: 30vw;       
-    min-width: 70vw;  
-    max-width: 80vw;  
+    width: 25vw;       
+    min-width: 60vw;  
+    max-width: 70vw;  
     height: auto;      
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    box-shadow: 0 7px 10px rgba(0,0,0,0.2);
 }

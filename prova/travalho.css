@@ -106,3 +106,30 @@ a:hover{
 .Cyber img{
     width: 15vw;
 }
+
+footer{
+    background-color: black;
+    color: whitesmoke;
+    padding: 0.5vw 0vw;
+    text-align: center;
+    font-size: 2vw;
+}
+
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: 1vw;
+}
+
+footer ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color: yellow;
+    text-decoration: underline;
+}

@@ -31,7 +31,78 @@ a:hover{
     align-items: center;
 }
 
-img{
+.image-container img{
     width: 100vw;
     height: auto;
+}
+
+.image-container {
+  position: relative; 
+  display: inline-block;
+}
+
+.texto-sobre-imagem {
+  position: absolute; 
+  top: 20%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: yellow; 
+  font-size: 24px; 
+  text-align: center;
+  font-size: 6vw; 
+}
+
+.title{
+    color: #ffee00;
+    font-size: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Cup {
+    margin-right: 2vw;
+    margin-left: auto;
+    background-color: whitesmoke;
+    border-radius: 4vw;
+    padding: 3%;
+    box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content:space-around;
+    align-items: center; 
+    width: 80%;
+    height: 100%;
+    position: relative;
+}
+
+.Cup p{
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+}
+
+.Cup img{
+    width: 15vw;
+}
+
+.Cyber {
+    margin-left: 2vw;
+    margin-right: auto;
+    background-color: whitesmoke;
+    border-radius: 4vw;
+    padding: 3%;
+    box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+    width: 80%;
+    height: 100%;
+    position: relative;
+}
+
+.Cyber p{
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+}
+
+.Cyber img{
+    width: 15vw;
 }
